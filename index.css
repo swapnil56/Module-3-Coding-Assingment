@@ -1,0 +1,109 @@
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  border:2px solid black;
+  color:black;
+  overflow: hidden;
+}
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid ;
+}
+
+#nr1  {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#nr2 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#nr3 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+   color:black;
+}
+p{
+
+  padding: 15px 25px 0px 25px;
+  font-family: Georgia sans-serif;
+  font-size: 16px;
+  position: relative;
+  color: rgb(0, 0, 0);
+
+}
+
+.row {
+  width: 100%;
+}
+.section { 
+  background-color: rgb(100, 100, 100);
+    border: 2px solid black;
+    margin-top: 20px; 
+    margin-left: 30px;
+    margin-right: 0px; 
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+ }
+
+
+@media (min-width: 1200px) {
+#header-nav {
+  height: 70px;
+}
+.navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+    border-bottom: 20px;
+    } 
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+#header-nav {
+    padding-top: 10px;
+    height: 70px; 
+    }  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+    padding-top: 10px;
+    height: 70px; 
+    }
+  }
+  }
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+
+  .navbar-brand h1 { /* Company's name */
+    padding-top: 10px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    overflow:hidden;
+  }
+}
+#header-nav a{
+  color:black;
+  font-size: 1.3em;
+  background-color:white;
+  border: 1px solid black;
+  overflow:hidden;
+}
